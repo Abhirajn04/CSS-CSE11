@@ -1,0 +1,24 @@
+.Menu a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.hamburger {
+    font-size: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    background: none;
+    position: static;
+    width: auto;
+}
+
+.hamburger {
+    display: none;
+}

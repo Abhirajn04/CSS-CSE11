@@ -1,24 +1,42 @@
-.Menu a {
-    display: block;
-    color: white;
-    padding: 14px 16px;
-    text-decoration: none;
+body{
+    margin: 0;
+    font-family: arial, sans-serif;
 }
 
-.hamburger {
-    font-size: 30px;
-    cursor: pointer;
-    color: white;
-}
-
-.menu {
+nav{
     display: flex;
-    flex-direction: row;
-    background: none;
-    position: static;
-    width: auto;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 1rem;
 }
 
-.hamburger {
-    display: none;
+.logo{
+    color: white;
+    font-size: 1.5rem;
 }
+
+.menu{
+    display: none;
+    flex-direction: column;
+    background:#4444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 280px;
+}
+
+.menu a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.hamburger{
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
+
+
